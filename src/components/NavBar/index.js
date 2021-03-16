@@ -1,11 +1,21 @@
 import React from "react";
+import {
+  Nav,
+  NavLink,
+  Bars,
+  NavMenu,
+  NavBtn,
+  NavBtnLink,
+} from "./NavBarElements";
 
 const NavBar = () => {
   return (
     <>
       <Nav>
         <NavLink to="/">
-          <h1>Live Audio Production</h1>
+        <NavBtn>
+          <NavBtnLink to="home">Live Audio Production</NavBtnLink>
+        </NavBtn>
         </NavLink>
         <Bars />
         <NavMenu>
@@ -22,9 +32,7 @@ const NavBar = () => {
             Contact Us
           </NavLink>
         </NavMenu>
-        <NavBtn>
-            <NavBtnLink to="home">Live Audio Production</NavBtnLink>
-        </NavBtn>
+        
       </Nav>
     </>
   );

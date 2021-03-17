@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../Logo";
 import {
   Nav,
   NavLink,
@@ -12,11 +13,8 @@ const NavBar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/">
-        <NavBtn>
-          <NavBtnLink to="home">Live Audio Production</NavBtnLink>
-        </NavBtn>
-        </NavLink>
+        <Logo />
+
         <Bars />
         <NavMenu>
           <NavLink to="/about" activeStyle>
@@ -32,7 +30,6 @@ const NavBar = () => {
             Contact Us
           </NavLink>
         </NavMenu>
-        
       </Nav>
     </>
   );

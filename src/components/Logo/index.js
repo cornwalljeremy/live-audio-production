@@ -1,14 +1,12 @@
 import React from "react";
-// import Img from "../../img/Live Audio Production.jpg";
+import Img from "../../assets/Live Audio Production.jpg";
 
 export const Logo = () => {
-  return;
-  (
+  return (
     <>
-   <h1>Live Audio Production</h1>
-  </>
-  )
-  
+      <img className="logo" src={Img}></img>
+    </>
+  );
 };
 
 export default Logo;

@@ -14,6 +14,7 @@ const NavBar = () => {
     <>
       <Nav>
         <Logo />
+        
 
         <Bars />
         <NavMenu>

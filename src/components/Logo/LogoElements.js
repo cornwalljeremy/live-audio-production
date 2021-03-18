@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
+// import styled from "styled-components";
 
-const Logo = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+// export const Logo = styled.logo`
+// width: 300px;
+// height: 200px;
 
-export default Logo
+// `;
+
+
+

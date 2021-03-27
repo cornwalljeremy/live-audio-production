@@ -9,8 +9,6 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
-
-  
 `;
 
 export const NavLink = styled(Link)`
@@ -71,7 +69,7 @@ export const NavBtnLink = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #1EBB40;
+    background: #1ebb40;
     color: #010606;
   }
 `;

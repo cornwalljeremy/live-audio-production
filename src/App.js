@@ -10,9 +10,10 @@ function App() {
     <Router>
       <NavBar />
       <Background />
-      
+
     </Router>
   );
 }
 
 export default App;
+.

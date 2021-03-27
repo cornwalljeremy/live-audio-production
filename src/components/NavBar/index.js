@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <>
       <Nav>
-        <Logo />
+        {/* <Logo /> */}
         
 
         <Bars />

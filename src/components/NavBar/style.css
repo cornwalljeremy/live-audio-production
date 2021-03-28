@@ -1,3 +1,18 @@
+.ul {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+text-decoration: none;
+list-style: none;
+transition: 0.5s ease-in-out;
+text-decoration: none;
+color: rgb(17, 99, 17);
+cursor: pointer;
 
-
-
+&:hover {
+    color: #01bf71;
+    transition: 0.5s ease-in-out;
+    
+}
+}

@@ -1,36 +1,20 @@
 import React from "react";
-import Logo from "../Logo";
+// import Logo from "../Logo";
 import {
   Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
+  NavBarContainer,
+  NavLogo,
+  
 } from "./NavBarElements";
 
 const NavBar = () => {
   return (
     <>
       <Nav>
-        {/* <Logo /> */}
-        
-
-        <Bars />
-        <NavMenu>
-          <NavLink to="/about" activeStyle>
-            About
-          </NavLink>
-          <NavLink to="/photos" activeStyle>
-            Photos
-          </NavLink>
-          <NavLink to="/services" activeStyle>
-            Services
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Contact Us
-          </NavLink>
-        </NavMenu>
+        <NavBarContainer> 
+          <NavLogo>Live Audio Production </NavLogo>
+          
+        </NavBarContainer>
       </Nav>
     </>
   );

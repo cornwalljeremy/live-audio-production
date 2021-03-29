@@ -11,27 +11,27 @@ import {
   NavLinks,
 } from "./NavBarElements";
 
-const NavBar = () => {
+const NavBar = ({ isOpen, toggle }) => {
   return (
     <>
       <Nav>
-        <NavBarContainer>
+        <NavBarContainer isOpen={isOpen} onClick={toggle}>
           <NavLogo to='/'>Live Audio Production </NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
-          </MobileIcon>
+          </MobileIcon >
           <NavMenu>
             <NavItem>
-              <NavLinks to='about'>About</NavLinks>
+              <NavLinks to='about' onClick={toggle}>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='services'>Services</NavLinks>
+              <NavLinks to='services' onClick={toggle}>Services</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='pictures'>Pictures</NavLinks>
+              <NavLinks to='pictures' onClick={toggle}>Pictures</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='contact'>Contact</NavLinks>
+              <NavLinks to='contact' onClick={toggle}>Contact</NavLinks>
             </NavItem>
           </NavMenu>
           
